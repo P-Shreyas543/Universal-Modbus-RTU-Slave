@@ -145,5 +145,3 @@ Initializes the serial port with the specified baud rate at `8N1` (8 data bits, 
 Reads the serial buffer, validates incoming frames via CRC, executes the requested Modbus function, and transmits the response. Must be called frequently inside `loop()`.
 
 ***
-
-Would you like me to write a quick GitHub Actions `.yml` workflow file so your repository automatically compiles your code to verify it has no errors whenever you push a new update?
