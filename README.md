@@ -66,7 +66,7 @@ STM32 boards often use `Serial2` or `Serial3` mapped to specific PA or PB pins d
 
 ModbusSlave slave(RS485_PORT, RS485_DE_PIN, SLAVE_ID);
 ```
-##📖 Usage Example
+## 📖 Usage Example
 Here is a complete example mapping LEDs to coils and a push-button to an input register.
 ```cpp
 #include "ModbusSlave.h"
@@ -119,7 +119,7 @@ void loop() {
   // inputRegs[0] = analogRead(SENSOR_PIN);
 }
 ```
-##📚 API Reference
+## 📚 API Reference
 ModbusSlave(HardwareSerial& serial, uint8_t dePin, uint8_t slaveId)
 
 **Constructor**. * `serial`: The hardware serial port to use (e.g., `Serial1`, `Serial2`).
